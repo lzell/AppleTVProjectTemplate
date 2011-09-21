@@ -190,7 +190,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ATV_ADDRESS = 192.168.2.116;
+				ATV_ADDRESS = atv;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -219,7 +219,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ATV_ADDRESS = 192.168.2.116;
+				ATV_ADDRESS = atv;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -247,7 +247,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				ATV_ADDRESS = appletv.local;
+				ATV_ADDRESS = atv;
 				ATV_APPLIANCE_INSTALL_PATH = /Applications/AppleTV.app/Appliances;
 				ATV_SSH_USER = root;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -288,7 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				ATV_ADDRESS = appletv.local;
+				ATV_ADDRESS = atv;
 				ATV_APPLIANCE_INSTALL_PATH = /Applications/AppleTV.app/Appliances;
 				ATV_SSH_USER = root;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
