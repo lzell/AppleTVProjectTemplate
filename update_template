@@ -1,0 +1,17 @@
+#!/bin/bash
+
+ATV_TEMPLATE_PATH=~/"Library/Application Support/Developer/Shared/Xcode/Project Templates/AppleTV/Application"
+
+
+ls -palhG "$ATV_TEMPLATE_PATH"
+echo -e "\n\nAbout to replace the above files, continue? (y/n)"
+read -e CONT
+
+if [ $CONT == "y" ]
+then
+  rm -rf "$ATV_TEMPLATE_PATH"
+  cp -rf Application "$ATV_TEMPLATE_PATH"
+else
+  echo "Not doing anything."
+fi
+
