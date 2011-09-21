@@ -1,2 +1,3 @@
-Copy Application folder to:
-~/Library/Application\ Support/Developer/Shared/Xcode/Project\ Templates/AppleTV/
+Make changes to Application project, then run: 
+./update_template
+
