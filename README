@@ -1,3 +1,13 @@
-Make changes to Application project, then run: 
-./update_template
+Copy the Application directory to: 
+~/Library/Application Support/Developer/Shared/Xcode/Project Templates/AppleTV
 
+Now, when you create a new project in Xcode you will have an option for AppleTV Application.
+
+After you create a new ATV application using this template, you must set the IP or hostname
+of your apple tv in the target's build setting under ATV_ADDRESS.
+
+This bundle is derived from Michael Gile's work: 
+http://mgile.com/post/10202555713/atvhelloworld-appletv2-1-click-build-and-deploy-xcode
+
+If you modify this template and would like to update your system's template, run: 
+./update_template
