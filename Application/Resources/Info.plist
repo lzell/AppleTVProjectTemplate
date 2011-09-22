@@ -37,7 +37,7 @@
 	<key>MinimumOSVersion</key>
 	<string>3.0</string>
 	<key>NSPrincipalClass</key>
-	<string>ATVAppliance</string>
+	<string>${PRODUCT_NAME}Appliance</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>3</integer>

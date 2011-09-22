@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		9AA210201429E94000AA530E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AA2101D1429E90E00AA530E /* InfoPlist.strings */; };
+		9ABCD261142AD5E60000D336 /* ___PROJECTNAMEASIDENTIFIER___Appliance.h in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D80F4B6AC300CF3369 /* ___PROJECTNAMEASIDENTIFIER___Appliance.h */; };
+		9ABCD262142AD5E60000D336 /* ___PROJECTNAMEASIDENTIFIER___Appliance.mm in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* ___PROJECTNAMEASIDENTIFIER___Appliance.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		256AC3D80F4B6AC300CF3369 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "___PROJECTNAMEASIDENTIFIER___AppDelegate.h"; sourceTree = "<group>"; };
-		256AC3D90F4B6AC300CF3369 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "___PROJECTNAMEASIDENTIFIER___AppDelegate.m"; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* ___PROJECTNAMEASIDENTIFIER___Appliance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "___PROJECTNAMEASIDENTIFIER___Appliance.h"; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* ___PROJECTNAMEASIDENTIFIER___Appliance.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "___PROJECTNAMEASIDENTIFIER___Appliance.mm"; sourceTree = "<group>"; };
 		256AC3F00F4B6AF500CF3369 /* ___PROJECTNAMEASIDENTIFIER____Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "___PROJECTNAMEASIDENTIFIER____Prefix.pch"; sourceTree = "<group>"; };
 		9A9CF6291429A5FD0008EBC1 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
 		9A9CF62A1429A5FD0008EBC1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -37,8 +39,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				256AC3D80F4B6AC300CF3369 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.h */,
-				256AC3D90F4B6AC300CF3369 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.m */,
+				256AC3D80F4B6AC300CF3369 /* ___PROJECTNAMEASIDENTIFIER___Appliance.h */,
+				256AC3D90F4B6AC300CF3369 /* ___PROJECTNAMEASIDENTIFIER___Appliance.mm */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -169,6 +171,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ABCD261142AD5E60000D336 /* ___PROJECTNAMEASIDENTIFIER___Appliance.h in Sources */,
+				9ABCD262142AD5E60000D336 /* ___PROJECTNAMEASIDENTIFIER___Appliance.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
