@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		9AA210201429E94000AA530E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AA2101D1429E90E00AA530E /* InfoPlist.strings */; };
-		9ABCD261142AD5E60000D336 /* ___PROJECTNAMEASIDENTIFIER___Appliance.h in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D80F4B6AC300CF3369 /* ___PROJECTNAMEASIDENTIFIER___Appliance.h */; };
 		9ABCD262142AD5E60000D336 /* ___PROJECTNAMEASIDENTIFIER___Appliance.mm in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* ___PROJECTNAMEASIDENTIFIER___Appliance.mm */; };
+		9ABCD304142AE0B40000D336 /* BRTopShelfView-ProductImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABCD303142AE0B40000D336 /* BRTopShelfView-ProductImage.m */; };
+		9ABCD307142AE0CA0000D336 /* TopShelfController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABCD306142AE0CA0000D336 /* TopShelfController.m */; };
+		9ABCD370142AF1230000D336 /* joypad_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ABCD36F142AF1230000D336 /* joypad_logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,13 @@
 		9A9CF62B1429A5FD0008EBC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9A9CF62C1429A5FD0008EBC1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		9AA2101E1429E90E00AA530E /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9ABCD2FE142ADDBB0000D336 /* ApplianceConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplianceConfig.h; sourceTree = "<group>"; };
+		9ABCD301142AE0B40000D336 /* BackRowExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackRowExtras.h; sourceTree = "<group>"; };
+		9ABCD302142AE0B40000D336 /* BRTopShelfView-ProductImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BRTopShelfView-ProductImage.h"; sourceTree = "<group>"; };
+		9ABCD303142AE0B40000D336 /* BRTopShelfView-ProductImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BRTopShelfView-ProductImage.m"; sourceTree = "<group>"; };
+		9ABCD305142AE0CA0000D336 /* TopShelfController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopShelfController.h; sourceTree = "<group>"; };
+		9ABCD306142AE0CA0000D336 /* TopShelfController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopShelfController.m; sourceTree = "<group>"; };
+		9ABCD36F142AF1230000D336 /* joypad_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joypad_logo.png; sourceTree = "<group>"; };
 		9ABFAD881429CD5B0020FB2A /* ___PROJECTNAME___.frappliance */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "___PROJECTNAME___.frappliance"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF8461C1429D72300FAB5FA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -39,8 +48,12 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9ABCD300142AE0B40000D336 /* BRExtras */,
+				9ABCD2FE142ADDBB0000D336 /* ApplianceConfig.h */,
 				256AC3D80F4B6AC300CF3369 /* ___PROJECTNAMEASIDENTIFIER___Appliance.h */,
 				256AC3D90F4B6AC300CF3369 /* ___PROJECTNAMEASIDENTIFIER___Appliance.mm */,
+				9ABCD305142AE0CA0000D336 /* TopShelfController.h */,
+				9ABCD306142AE0CA0000D336 /* TopShelfController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -84,11 +97,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9ABCD300142AE0B40000D336 /* BRExtras */ = {
+			isa = PBXGroup;
+			children = (
+				9ABCD301142AE0B40000D336 /* BackRowExtras.h */,
+				9ABCD302142AE0B40000D336 /* BRTopShelfView-ProductImage.h */,
+				9ABCD303142AE0B40000D336 /* BRTopShelfView-ProductImage.m */,
+			);
+			name = BRExtras;
+			sourceTree = "<group>";
+		};
 		9AF8461B1429D72300FAB5FA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9AA2101D1429E90E00AA530E /* InfoPlist.strings */,
 				9AF8461C1429D72300FAB5FA /* Info.plist */,
+				9AA2101D1429E90E00AA530E /* InfoPlist.strings */,
+				9ABCD36F142AF1230000D336 /* joypad_logo.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -145,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AA210201429E94000AA530E /* InfoPlist.strings in Resources */,
+				9ABCD370142AF1230000D336 /* joypad_logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,8 +196,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ABCD261142AD5E60000D336 /* ___PROJECTNAMEASIDENTIFIER___Appliance.h in Sources */,
 				9ABCD262142AD5E60000D336 /* ___PROJECTNAMEASIDENTIFIER___Appliance.mm in Sources */,
+				9ABCD304142AE0B40000D336 /* BRTopShelfView-ProductImage.m in Sources */,
+				9ABCD307142AE0CA0000D336 /* TopShelfController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

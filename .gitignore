@@ -1,1 +1,4 @@
 Application/build/*
+Application/___PROJECTNAME___.xcodeproj/*.mode1v3
+Application/___PROJECTNAME___.xcodeproj/*.pbxuser
+Application/___PROJECTNAME___.xcodeproj/*.perspectivev3
